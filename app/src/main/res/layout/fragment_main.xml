@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main$PlaceholderFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/watchButton"
+        android:layout_marginBottom="10dp"
+        android:text="@string/send_notification"
+        android:textColor="@color/my_favorite_blue"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/watchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/watch"
+        android:contentDescription="@string/button_description"/>
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WearNotification</string>
+
+    <string name="button_description">Send notification</string>
+    <string name="send_notification">Now, time to send notification!</string>
+    <string name="empty_string"/>
+
+    <string name="title_text">Hello, Android Wear Notification!</string>
+    <string name="short_description">Notification is collapsed.</string>
+    <string name="long_description">This text will be shown when notification is expended. Basically this is the text which provides the longest information about your notification. If you have this text, wear won\'t show sorter one.</string>
+
+    <string name="secon_page_title">Second page</string>
+    <string name="second_page_big_text">This is the second page which will have so much details about your notification! So you can add a long text here..</string>
+
+    <string name="like_action_text">Like</string>
+    <string name="wear_action_text">Wear Action</string>
+
+    <string name="like_fragment_text">Yep! You liked the notification \\o/</string>
+    <string name="wear_fragment_text">You clicked the notification on Android Wear!</string>
+
+    <string name="clicked_action">clickedAction</string>
+    <string name="action_content">com.iamkaan.training.wearnotification.main</string>
+    <string name="action_like">com.iamkaan.training.wearnotification.like</string>
+    <string name="action_wear">com.iamkaan.training.wearnotification.wear</string>
+</resources>
